@@ -1,1 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Kalnia', serif;
+}
+h1 {
+    font-style: italic;
+    font-family: 'Kalnia', serif;
+    font-weight: 700;
+    font-size: 55px;
 
+}
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 20px;    
+}
+ul li {
+    padding-top: 20px;
+}
+ul li:first-child {
+    padding-top: 0;
+}
+a {
+    text-decoration: none;
+}
